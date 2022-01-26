@@ -13,6 +13,7 @@
 		89241FB9279F164500401F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89241FB7279F164500401F1D /* Main.storyboard */; };
 		89241FBB279F164700401F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89241FBA279F164700401F1D /* Assets.xcassets */; };
 		89241FBE279F164700401F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89241FBC279F164700401F1D /* LaunchScreen.storyboard */; };
+		89DE2E4F27A022F0002263AF /* SettingViewControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE2E4E27A022F0002263AF /* SettingViewControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		89241FBA279F164700401F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89241FBD279F164700401F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89241FBF279F164700401F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DE2E4E27A022F0002263AF /* SettingViewControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		89241FA5279F164500401F1D = {
 			isa = PBXGroup;
 			children = (
+				89DE2E4E27A022F0002263AF /* SettingViewControlViewController.swift */,
 				89241FB0279F164500401F1D /* initial Tip Calculator */,
 				89241FAF279F164500401F1D /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				89241FB6279F164500401F1D /* ViewController.swift in Sources */,
 				89241FB2279F164500401F1D /* AppDelegate.swift in Sources */,
+				89DE2E4F27A022F0002263AF /* SettingViewControlViewController.swift in Sources */,
 				89241FB4279F164500401F1D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
